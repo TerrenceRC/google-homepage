@@ -1,0 +1,133 @@
+.main {
+	display: grid;
+	height: 100%;
+	grid-template-rows: 40px 1fr 45px;
+}
+
+.header {
+	background-color: #FFF;
+	text-align: center;
+	padding-top: 5px;
+	grid-row: 1;
+}
+
+.content {
+	height: 100%;
+	text-align: center;
+	grid-row: 2;
+}
+
+.footer {
+	text-align: center;
+	background-color: #EDEDED;
+	padding: 0 15px 0 0;
+	grid-row: 3;
+}
+
+.logo-container {
+	position: relative;
+	margin: 160px 0 0 0;
+}
+
+.form-container {
+	margin: 30px 0 0 0;
+}
+
+span:before {
+	content: " ";
+	display: inline-block;
+	width: 32px;
+}
+
+input.custom {
+	size: 50px;
+}
+
+input.custom-search {
+	border: medium, none;
+	background: #FFF;
+	height: 44px;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	outline: medium none currentcolor;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	border-radius: 2px;
+	border-style: none;
+	padding: 0 15px 0 15px;
+}
+
+input:hover.custom-search {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+}
+input:focus.custom-search {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+button.custom-button {
+	 background: #f2f2f2;
+	 height: 35px;
+	 width: 140px;
+	 border: none;
+	 font: 13px arial, sans-serif;
+	 font-weight: bold;
+	 color: #777;
+}
+
+button:hover.custom-button {
+	color: #111;
+	background: #f4f4f4;
+	border-style: solid;
+	border-width: 0.25;
+	border-color: #CCC;
+	border-radius: 2px;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.footer-nav-left li {
+	float: left;
+	display: block;
+	color: #666;
+	padding: 0 20px 0 0;
+	font: 12.5px arial, sans-serif;
+}
+
+ul.footer-nav-right li{
+	float: right;
+	display: block;
+	color: #666;
+	padding: 0 20px 0 0;
+	font: 12.5px arial, sans-serif;
+}
+
+li a {
+	text-decoration: none;
+	color: #666;
+}
+
+ul.header-nav-left a {
+	float: left;
+	display: block;
+	color: #000;
+	padding: 0 20px 0 0;
+	font: 13px arial, sans-serif;
+}
+
+ul.header-nav-right a {
+	float: right;
+	display: block;
+	color: #000;
+	padding: 0 20px 0 0;
+	font: 13px arial, sans-serif;
+}
+
+ul a:hover {
+	text-decoration: underline;
+}
